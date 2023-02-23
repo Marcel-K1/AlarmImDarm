@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 72dd85b7358549e429ea2d01b3645554
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - enemyBossAPrefab: {fileID: 1123511262644806698, guid: 366cfb6b8fdef614098012c70d524317, type: 3}
+  - enemyBossBPrefab: {fileID: 349568798284650271, guid: aede2501488400c4daaf8f4b2f52db89, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7265823098321822152
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7265823098321821750}
+  - component: {fileID: 7265823098321821751}
+  m_Layer: 0
+  m_Name: Game Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7265823098321821750
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7265823098321822152}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7265823098321821751
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7265823098321822152}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c71d760d83f58bf4cb371669496451cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  paused: 0
+  firstBoot: 1
+  won: 0
+  lost: 0
+  gameOver: 0
+  reload: 0
+  loadingPlayerData: 0
+  playerHealth: {fileID: 11400000, guid: d57cb8100d6e79c4a99aa658419bc5ce, type: 2}
+  playerSpeed: {fileID: 11400000, guid: fa15347fdfdba1448a1f73b8bf64a763, type: 2}
+  playerStrength: {fileID: 11400000, guid: ff7ed77c24b47704a9c8c5d10ebcdce4, type: 2}
+  playerName: {fileID: 11400000, guid: 8bb1b013cac688a499c598513d3ff90e, type: 2}
+  playerPoints: {fileID: 11400000, guid: 2d8c58a75cd59c5439dd3de5fa84afc8, type: 2}
+  playerPrefab: {fileID: 8008090918571169756, guid: ea105d7dd0d1c3943822371a8c300c55, type: 3}
+  playerDefaultSprite: {fileID: 11400000, guid: c07708db49b64aa4f9d7abd74ca48dfc, type: 2}
+  enemyList: {fileID: 11400000, guid: 26a0e913293b3044ebb6c3e52f2c689d, type: 2}
+  MapData: {fileID: 11400000, guid: 3c8c1cff2b04a9a448a25a6c3ea4ffd6, type: 2}
+  POIData: {fileID: 11400000, guid: 18bf34d2beedca343899522ba5c7a2ec, type: 2}
+  gameDifficulty: {fileID: 11400000, guid: 8ffe05b9fa59c5740a11b0d37254bbd1, type: 2}
+  currentPOICollected: 0
+  currentEnemiesLeftPercentage: 0
+  saveData: {fileID: 11400000, guid: 32868ce95c5507540bcf3530eb8eed4d, type: 2}

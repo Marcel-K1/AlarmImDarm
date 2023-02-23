@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c1011df13df4be64ca97e8c459508fed
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - playerHealth: {fileID: 11400000, guid: d57cb8100d6e79c4a99aa658419bc5ce, type: 2}
+  - playerDamage: {fileID: 11400000, guid: ff7ed77c24b47704a9c8c5d10ebcdce4, type: 2}
+  - playerSpeed: {fileID: 11400000, guid: fa15347fdfdba1448a1f73b8bf64a763, type: 2}
+  - playerShootingCooldown: {fileID: 11400000, guid: 9c4aaf3ca366812409dca806b34b8c5a, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

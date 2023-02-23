@@ -1,0 +1,164 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4320714451326424116
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4320714451326424117}
+  - component: {fileID: 4320714451326424119}
+  - component: {fileID: 4320714451326424118}
+  - component: {fileID: 4320714451326424113}
+  - component: {fileID: 4320714451326424112}
+  m_Layer: 0
+  m_Name: MapManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4320714451326424117
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4320714451326424116}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4320714451326424119
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4320714451326424116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06f85d299d0b20846a895c10aec4ec3e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PointsOfInterest: []
+  enemyMinionPrefab:
+  - {fileID: 456303576613521090, guid: 752769517f674cf4b854db4b924ed7c8, type: 3}
+  enemyBossPrefab:
+  - {fileID: 6858169109957074590, guid: 366cfb6b8fdef614098012c70d524317, type: 3}
+  - {fileID: 3772862635700494426, guid: aede2501488400c4daaf8f4b2f52db89, type: 3}
+  playerPrefab: {fileID: 8008090918571169756, guid: ea105d7dd0d1c3943822371a8c300c55, type: 3}
+  itemPrefab:
+  - {fileID: 1140068425565708408, guid: 9b58c5e898596424ab04ca0123cf8149, type: 3}
+  - {fileID: 1140068425565708408, guid: 87260651eb346314090ed369ca138aa7, type: 3}
+  - {fileID: 1140068425565708408, guid: ea20a6d7b23f9d9458acc30f28834865, type: 3}
+  - {fileID: 5274434080132306648, guid: 1c86e010dded75944949bdb53649073e, type: 3}
+  pOIPrefab:
+  - {fileID: 4740487393615463005, guid: 46640b84510189a4292801ee6c356d57, type: 3}
+  - {fileID: 4740487393615463005, guid: 72cc9c8d2d5a7d745a090027565ded45, type: 3}
+  - {fileID: 4740487393615463005, guid: 3c02b8e38f8d1ef43b7d42c5e39a72f6, type: 3}
+  - {fileID: 4740487393615463005, guid: eba891f44e0b61b4887377ad4c08accd, type: 3}
+  - {fileID: 4740487393615463005, guid: 7d9c744c9d5b71e49b2c3c9ff1a51a26, type: 3}
+  - {fileID: 4740487393615463005, guid: 1a7836e2f6b91894bb5bff39f4f569e7, type: 3}
+  - {fileID: 4740487393615463005, guid: 8000c3bf0020a9b4f85aeced4cb248a4, type: 3}
+  fartalotCanvas: {fileID: 0}
+  data: {fileID: 11400000, guid: 3c8c1cff2b04a9a448a25a6c3ea4ffd6, type: 2}
+  saveData: {fileID: 11400000, guid: 32868ce95c5507540bcf3530eb8eed4d, type: 2}
+  enemyList: {fileID: 11400000, guid: 26a0e913293b3044ebb6c3e52f2c689d, type: 2}
+  saveDebug: 0
+--- !u!114 &4320714451326424118
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4320714451326424116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87d651d490625de4093da1fc2697f302, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  backGround_Prefab:
+  - {fileID: 3616448233603777844, guid: adf95e6918348ba439b0ae0a9c17f86d, type: 3}
+  - {fileID: 5901527327950432399, guid: ec79abf45f45ee54d83d196f551523a9, type: 3}
+  - {fileID: 2610173684216938615, guid: 00ee53f716f491746b0d26a7ef59197e, type: 3}
+  - {fileID: 5529895999169759893, guid: 864bc3d54c1d14a44a70ea114ba8e663, type: 3}
+  - {fileID: 9046825281462698403, guid: d23fbe839c74a9d428faa64d8c4c2d55, type: 3}
+  wallSide_Prefab:
+  - {fileID: 2187487164126989671, guid: 2f8ae1801191cb74cb1a14b4086927fe, type: 3}
+  - {fileID: 2440432389206839718, guid: 8e34f653d0d25a4419df36d045aa918f, type: 3}
+  - {fileID: 4714055731141002972, guid: 6969a6000aa212f4897c297535356232, type: 3}
+  - {fileID: 7954528006006224291, guid: 11d532a842bfb4d4ea4ad6028db3ef1f, type: 3}
+  wallSideDoor_Prefab:
+  - {fileID: 8052527897925237144, guid: 0ca18231b0f5aa24e8282a49d2ff64d7, type: 3}
+  - {fileID: 5144424962027617406, guid: 942304380ea8aac4386f5c05b74d5394, type: 3}
+  - {fileID: 3679143782111410765, guid: 615e459252addf34e81174f04bec8c06, type: 3}
+  - {fileID: 514718417338599859, guid: 7ad64bd58a8da8b4bb94b7ee2e2ed810, type: 3}
+  wallBottom_Prefab:
+  - {fileID: 1579143878535138099, guid: f30ece0352051e648adc1d29c3e65461, type: 3}
+  - {fileID: 3437894869563196981, guid: c1c056c20261e6848ad0815dddbab1bc, type: 3}
+  - {fileID: 5333588952821580240, guid: 950d996ad966d7349aebb02babc1d849, type: 3}
+  - {fileID: 8948265644477879053, guid: a784ab0ba9133754b83f0032be1cfb9e, type: 3}
+  wallBottomDoor_Prefab:
+  - {fileID: 2944189528526343604, guid: 9451c60ea98069d459623510ffda23d2, type: 3}
+  - {fileID: 9152194211534539760, guid: bacbbd24b38376748bdc542e2707ffc5, type: 3}
+  - {fileID: 2944189528526343604, guid: 9670b804224439e4db1a55642b5887fe, type: 3}
+  - {fileID: 1883734436419869145, guid: bfd3044f56e28fc43a61ff96f37f5320, type: 3}
+  doorsH_Prefab:
+  - {fileID: 2983249651871928234, guid: 997a8c6516725d341ac5afee931d525e, type: 3}
+  doorsV_Prefab:
+  - {fileID: 1140731388932094999, guid: 3b1c0545ea4d3974e947a6e385d561e3, type: 3}
+  obstacle_Prefab:
+  - {fileID: 1199883735196541078, guid: fcfb2b0958ef166499cb7b183a5b129c, type: 3}
+  - {fileID: 2661191826340681564, guid: 8c784a6d739c6b544bc51282b26d9493, type: 3}
+  - {fileID: 7630968984498452282, guid: 4837b96d9e86220489b7693ed8e0f492, type: 3}
+  - {fileID: 1525130068061899634, guid: 1eb4708ed6f6bb14380c7c2db15f0a26, type: 3}
+  - {fileID: 8204002253730755674, guid: 473c6b7ab52351246aa5295a3031041a, type: 3}
+  - {fileID: 8238858247188542831, guid: 8b0d48c3d3a22364f9bc78f8b38a1d84, type: 3}
+  - {fileID: 6319859104275617816, guid: c1aa29f77c9383d409db3c29512de114, type: 3}
+  - {fileID: 2773791416343946160, guid: 2e0790dc97a08834f83cf1ea4e4e03b0, type: 3}
+  - {fileID: 1633652519871354077, guid: e50f2be67eda40449a0d72b42cadbb58, type: 3}
+  - {fileID: 3706427978103651560, guid: 63a86b6d714e92f45a58a8e916558a1c, type: 3}
+  - {fileID: 3243669890064193486, guid: 7246efc5ebe9fba4586be04a6d07b1a3, type: 3}
+  - {fileID: 9021035513642549056, guid: d13c3edc50728ae4598db3287a8af56f, type: 3}
+  - {fileID: 8891045580244165404, guid: 26fa142882613ff4c8655b4591d783f2, type: 3}
+  - {fileID: 4850647482173670402, guid: 9b1839da63337d147b21ad27886f5207, type: 3}
+  maxStartRoom: 6
+  maxNormalRoom: 4
+  maxItemRoom: 7
+  maxPOIRoom: 6
+  maxBoosRoom: 3
+--- !u!114 &4320714451326424113
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4320714451326424116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72dd85b7358549e429ea2d01b3645554, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bossEnemies: []
+  bossTypes: []
+  enemyBossAPrefab: {fileID: 1123511262644806698, guid: 366cfb6b8fdef614098012c70d524317, type: 3}
+  enemyBossBPrefab: {fileID: 349568798284650271, guid: aede2501488400c4daaf8f4b2f52db89, type: 3}
+--- !u!156049354 &4320714451326424112
+Grid:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4320714451326424116}
+  m_Enabled: 1
+  m_CellSize: {x: 1, y: 1, z: 1}
+  m_CellGap: {x: 0, y: 0, z: 0}
+  m_CellLayout: 0
+  m_CellSwizzle: 0

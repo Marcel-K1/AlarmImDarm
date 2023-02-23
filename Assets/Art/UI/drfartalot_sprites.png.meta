@@ -1,0 +1,430 @@
+fileFormatVersion: 2
+guid: f988779863c3fbf4da186453749b4b10
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 9
+  spritePivot: {x: 0.097455665, y: 0.49708226}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 4023, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: 0.04
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: karlklammer_2_fina_sheetl-export_0
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 79
+        width: 461
+        height: 873
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cd8a67ced19a874f8109f3cc6ddfc96
+      internalID: -1074443739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karlklammer_2_fina_sheetl-export_1
+      rect:
+        serializedVersion: 2
+        x: 1097
+        y: 304
+        width: 874
+        height: 461
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 298acdcba8867774fbe81612e4a92ec7
+      internalID: -1967193443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karlklammer_2_fina_sheetl-export_2
+      rect:
+        serializedVersion: 2
+        x: 2321
+        y: 67
+        width: 461
+        height: 876
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57804d7f2634c144f94c35b50b01b16c
+      internalID: -1882590600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karlklammer_2_fina_sheetl-export_3
+      rect:
+        serializedVersion: 2
+        x: 3119
+        y: 289
+        width: 874
+        height: 462
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8906e18f9767904d82288ff473ee468
+      internalID: 120111120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karlklammer_2_fina_sheetl-export_4
+      rect:
+        serializedVersion: 2
+        x: 4341
+        y: 79
+        width: 461
+        height: 873
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e478fe9b3e7a36344b446f93db7bbcc5
+      internalID: -1531719972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline:
+    - - {x: 285.64453, y: -256.09756}
+      - {x: 285.64453, y: -34.146343}
+      - {x: 209.96094, y: 282.92682}
+      - {x: 109.86328, y: 446.34146}
+      - {x: -73.24219, y: 446.34146}
+      - {x: -134.27734, y: 292.68292}
+      - {x: -151.36719, y: -53.65854}
+      - {x: -107.421875, y: -24.390244}
+      - {x: -90.33203, y: -2.4390244}
+      - {x: -63.476562, y: 75.60976}
+      - {x: -61.035156, y: 307.31708}
+      - {x: 107.421875, y: 336.58536}
+      - {x: 141.60156, y: 170.7317}
+      - {x: 141.60156, y: -97.560974}
+      - {x: 68.359375, y: -134.14635}
+      - {x: 65.91797, y: -221.95122}
+      - {x: 65.91797, y: -146.34146}
+      - {x: 24.414062, y: 217.07317}
+      - {x: 95.21484, y: -31.707317}
+      - {x: 122.07031, y: -29.268293}
+      - {x: 139.16016, y: 0}
+      - {x: 141.60156, y: 153.65854}
+      - {x: 126.953125, y: 224.39024}
+      - {x: 92.77344, y: 285.36584}
+      - {x: -53.710938, y: 251.21951}
+      - {x: -61.035156, y: 190.2439}
+      - {x: -61.035156, y: -39.02439}
+      - {x: -102.53906, y: -48.780487}
+      - {x: -131.83594, y: -56.09756}
+      - {x: -161.13281, y: -70.731705}
+      - {x: -166.01562, y: -151.21951}
+      - {x: -129.39453, y: -178.04878}
+      - {x: -170.89844, y: -158.53659}
+      - {x: -183.10547, y: -158.53659}
+      - {x: -183.10547, y: -190.2439}
+      - {x: -175.78125, y: -224.39024}
+      - {x: -151.36719, y: -241.46341}
+      - {x: -119.62891, y: -263.41464}
+      - {x: -95.21484, y: -380.4878}
+      - {x: -14.6484375, y: -436.58536}
+      - {x: 90.33203, y: -436.58536}
+      - {x: 251.46484, y: -280.4878}
+      - {x: 244.14062, y: -263.41464}
+      - {x: 214.84375, y: -265.85367}
+    - - {x: -1862.793, y: 4.878049}
+      - {x: -1879.8828, y: -56.09756}
+      - {x: -1882.3242, y: -287.80487}
+      - {x: -2038.5742, y: -341.4634}
+      - {x: -2084.961, y: -146.34146}
+      - {x: -2089.8438, y: -29.268293}
+      - {x: -2077.6367, y: 117.07317}
+      - {x: -2014.1602, y: 175.60976}
+      - {x: -2009.2773, y: 229.2683}
+      - {x: -1999.5117, y: 314.63416}
+      - {x: -1901.8555, y: 382.92682}
+      - {x: -2080.0781, y: 19.512196}
+      - {x: -2080.0781, y: -129.2683}
+      - {x: -2058.1055, y: -217.07317}
+      - {x: -2014.1602, y: -246.34146}
+      - {x: -1950.6836, y: -258.5366}
+      - {x: -1879.8828, y: -185.36586}
+      - {x: -1889.6484, y: 51.219513}
+      - {x: -1760.2539, y: 92.68293}
+      - {x: -1760.2539, y: 246.34146}
+      - {x: -1870.1172, y: 434.14633}
+      - {x: -1943.3594, y: 456.09756}
+      - {x: -2038.5742, y: 456.09756}
+      - {x: -2192.3828, y: 300}
+      - {x: -2194.8242, y: 287.80487}
+      - {x: -2229.004, y: 219.51219}
+      - {x: -2229.004, y: 124.39024}
+      - {x: -2087.4023, y: -424.39026}
+      - {x: -1840.8203, y: -424.39026}
+      - {x: -1760.2539, y: 24.390244}
+      - {x: -1760.2539, y: 63.414635}
+      - {x: -1835.9375, y: 51.219513}
+    - - {x: 2231.4453, y: 46.341465}
+      - {x: 2214.3555, y: 24.390244}
+      - {x: 2187.5, y: -53.65854}
+      - {x: 2185.0586, y: -292.68292}
+      - {x: 2026.3672, y: -341.4634}
+      - {x: 1984.8633, y: -160.97562}
+      - {x: 1982.4219, y: 119.5122}
+      - {x: 2043.457, y: 165.85365}
+      - {x: 2058.1055, y: 219.51219}
+      - {x: 2062.9883, y: 151.21951}
+      - {x: 2072.754, y: 131.70732}
+      - {x: 2001.9531, y: 51.219513}
+      - {x: 1984.8633, y: 21.95122}
+      - {x: 1987.3047, y: -124.39024}
+      - {x: 1994.6289, y: -180.48781}
+      - {x: 2014.1602, y: -241.46341}
+      - {x: 2143.5547, y: -260.97562}
+      - {x: 2182.6172, y: -175.60976}
+      - {x: 2170.4102, y: 51.219513}
+      - {x: 2263.1836, y: 82.92683}
+      - {x: 2290.039, y: 112.19512}
+      - {x: 2285.1562, y: 173.17073}
+      - {x: 2250.9766, y: 197.56097}
+      - {x: 2292.4805, y: 178.04878}
+      - {x: 2307.129, y: 175.60976}
+      - {x: 2307.129, y: 221.95122}
+      - {x: 2263.1836, y: 324.39026}
+      - {x: 2197.2656, y: 456.09756}
+      - {x: 2001.9531, y: 456.09756}
+      - {x: 1835.9375, y: 280.4878}
+      - {x: 1835.9375, y: 126.82927}
+      - {x: 1916.5039, y: -185.36586}
+      - {x: 1989.7461, y: -417.07318}
+      - {x: 2001.9531, y: -424.39026}
+      - {x: 2192.3828, y: -424.39026}
+      - {x: 2297.3633, y: -273.17075}
+      - {x: 2270.5078, y: 34.146343}
+      - {x: 2253.418, y: 46.341465}
+    - - {x: 1342.7734, y: 212.19513}
+      - {x: 1037.5977, y: 221.95122}
+      - {x: 1025.3906, y: 202.43903}
+      - {x: 1022.9492, y: 182.92683}
+      - {x: 1057.1289, y: 156.09756}
+      - {x: 1125.4883, y: 139.0244}
+      - {x: 1362.3047, y: 136.58537}
+      - {x: 1413.5742, y: -24.390244}
+      - {x: 1235.3516, y: -70.731705}
+      - {x: 952.14844, y: -65.85366}
+      - {x: 908.2031, y: -4.878049}
+      - {x: 844.72656, y: 4.878049}
+      - {x: 942.3828, y: 17.073172}
+      - {x: 991.21094, y: 70.731705}
+      - {x: 1022.9492, y: -48.780487}
+      - {x: 1049.8047, y: -63.414635}
+      - {x: 1196.2891, y: -63.414635}
+      - {x: 1254.8828, y: -58.536587}
+      - {x: 1308.5938, y: -34.146343}
+      - {x: 1328.125, y: 65.85366}
+      - {x: 1274.4141, y: 129.2683}
+      - {x: 1037.5977, y: 143.90244}
+      - {x: 974.1211, y: 256.09756}
+      - {x: 764.16016, y: 256.09756}
+      - {x: 634.7656, y: 248.78049}
+      - {x: 615.2344, y: 178.04878}
+      - {x: 615.2344, y: -92.68293}
+      - {x: 764.16016, y: -178.04878}
+      - {x: 783.6914, y: -178.04878}
+      - {x: 786.1328, y: -170.7317}
+      - {x: 786.1328, y: -148.78049}
+      - {x: 781.25, y: -134.14635}
+      - {x: 820.3125, y: -200}
+      - {x: 842.28516, y: -214.63416}
+      - {x: 969.2383, y: -214.63416}
+      - {x: 1486.8164, y: -60.97561}
+      - {x: 1496.582, y: -19.512196}
+      - {x: 1496.582, y: 136.58537}
+    - - {x: -683.59375, y: 241.46341}
+      - {x: -700.6836, y: 226.82927}
+      - {x: -693.3594, y: 185.36586}
+      - {x: -712.8906, y: 268.2927}
+      - {x: -1118.1641, y: 268.2927}
+      - {x: -1384.2773, y: 226.82927}
+      - {x: -1406.25, y: 178.04878}
+      - {x: -1406.25, y: -85.36585}
+      - {x: -1259.7656, y: -192.68292}
+      - {x: -939.9414, y: -173.17073}
+      - {x: -930.1758, y: -129.2683}
+      - {x: -952.14844, y: -92.68293}
+      - {x: -1267.0898, y: -65.85366}
+      - {x: -1323.2422, y: 78.04878}
+      - {x: -1145.0195, y: 124.39024}
+      - {x: -1025.3906, y: 126.82927}
+      - {x: -998.53516, y: 129.2683}
+      - {x: -986.3281, y: 131.70732}
+      - {x: -874.02344, y: 104.87805}
+      - {x: -783.6914, y: 24.390244}
+      - {x: -849.6094, y: 36.585365}
+      - {x: -957.03125, y: 121.95122}
+      - {x: -1145.0195, y: 117.07317}
+      - {x: -1198.7305, y: 97.560974}
+      - {x: -1250, y: 53.65854}
+      - {x: -1208.4961, y: -70.731705}
+      - {x: -944.8242, y: -82.92683}
+      - {x: -883.78906, y: -200}
+      - {x: -754.39453, y: -200}
+      - {x: -739.7461, y: -197.56097}
+      - {x: -563.96484, y: -131.70732}
+      - {x: -524.90234, y: -39.02439}
+      - {x: -524.90234, y: 92.68293}
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 1537655665
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      karlklammer_2_fina_sheetl-export_2: -1882590600
+      karlklammer_2_fina_sheetl-export_4: -1531719972
+      karlklammer_2_fina_sheetl-export_1: -1967193443
+      karlklammer_2_fina_sheetl-export_0: -1074443739
+      karlklammer_2_fina_sheetl-export_3: 120111120
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
