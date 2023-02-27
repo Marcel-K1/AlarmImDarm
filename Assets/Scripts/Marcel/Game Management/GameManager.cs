@@ -287,6 +287,11 @@ public class GameManager : MonoBehaviour
     //Used to trigger right dislpay text
     public void ShowAdvice()
     {
+        if (won)
+        {
+            return;
+        }
+
         if (enemyList.currentEnemiesLeft == 0 && won == false)
         {
             findPOITextEvent.Invoke();
@@ -305,10 +310,6 @@ public class GameManager : MonoBehaviour
             return;
         }
 
-        if (won)
-        {
-            return;
-        }
     }
 
 
