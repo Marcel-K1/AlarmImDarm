@@ -479,7 +479,7 @@ MonoBehaviour:
     m_Bits: 64
   enemyList: {fileID: 11400000, guid: 26a0e913293b3044ebb6c3e52f2c689d, type: 2}
   health: 100
-  idleSpeed: 9
+  idleSpeed: 11
   attackSpeed: 14
   damageAmount: 5
   shootingDistance: 0.8

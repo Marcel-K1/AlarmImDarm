@@ -304,6 +304,11 @@ public class GameManager : MonoBehaviour
             findPOITextEvent.Invoke();
             return;
         }
+
+        if (won)
+        {
+            return;
+        }
     }
 
 

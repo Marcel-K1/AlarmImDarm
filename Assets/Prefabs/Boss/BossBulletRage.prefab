@@ -9,9 +9,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1335110135141839551}
-  - component: {fileID: 1917425017875499522}
   - component: {fileID: 8763686789495076143}
   - component: {fileID: 774241915088239858}
+  - component: {fileID: 2732436217942870571}
   m_Layer: 7
   m_Name: BossBulletRage
   m_TagString: Enemy
@@ -36,27 +36,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!50 &1917425017875499522
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 125874377349570849}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 1
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 4
 --- !u!58 &8763686789495076143
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -87,8 +66,29 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletSpeed: 2
   timeUntilDestroy: 1
-  rigidBody: {fileID: 1917425017875499522}
+  rigidBody: {fileID: 0}
   damage: 10
+--- !u!50 &2732436217942870571
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 125874377349570849}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 1
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &5984039428316372455
 GameObject:
   m_ObjectHideFlags: 0

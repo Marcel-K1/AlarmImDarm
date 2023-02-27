@@ -406,6 +406,7 @@ MonoBehaviour:
   playerPointsText: {fileID: 714201033984060510}
   playerStrengthText: {fileID: 714201032555233878}
   playerStaminaText: {fileID: 714201033539142965}
+  pointsOfInterestText: {fileID: 0}
   playerHealthSlider: {fileID: 714201033128598696}
   playerHealthGradient:
     serializedVersion: 2
@@ -475,6 +476,8 @@ MonoBehaviour:
   strength: {fileID: 11400000, guid: ff7ed77c24b47704a9c8c5d10ebcdce4, type: 2}
   playerName: {fileID: 11400000, guid: 8bb1b013cac688a499c598513d3ff90e, type: 2}
   enemyList: {fileID: 11400000, guid: 26a0e913293b3044ebb6c3e52f2c689d, type: 2}
+  saveData: {fileID: 0}
+  mapManager: {fileID: 0}
 --- !u!1 &714201032646106479
 GameObject:
   m_ObjectHideFlags: 0
@@ -734,9 +737,9 @@ MonoBehaviour:
   m_HandleRect: {fileID: 0}
   m_Direction: 0
   m_MinValue: 0
-  m_MaxValue: 100
+  m_MaxValue: 150
   m_WholeNumbers: 0
-  m_Value: 100
+  m_Value: 150
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []

@@ -349,7 +349,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 0.5
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 0
@@ -365,7 +365,7 @@ AudioSource:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3772862635700494426}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 6620965118578629134, guid: d40f3695bbb5c444dbeba45badd66d3a, type: 2}
   m_audioClip: {fileID: 0}
@@ -479,7 +479,7 @@ MonoBehaviour:
     m_Bits: 64
   enemyList: {fileID: 11400000, guid: 26a0e913293b3044ebb6c3e52f2c689d, type: 2}
   health: 100
-  idleSpeed: 10
+  idleSpeed: 11
   chaseSpeed: 12
   damage: 10
   RageDamage: 30

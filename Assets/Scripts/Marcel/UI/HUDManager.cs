@@ -142,8 +142,8 @@ public class HUDManager : MonoBehaviour
 
     public void SetMaxHealth(int health)
 	{	
-		playerHealthSlider.maxValue = health;
-		playerHealthSlider.value = health;
+		playerHealthSlider.maxValue = (float)health;
+		playerHealthSlider.value = (float)health;
 
 		playerFill.color = playerHealthGradient.Evaluate(1f);
 			
@@ -151,7 +151,7 @@ public class HUDManager : MonoBehaviour
 
 	public void SetHealth(int health)
 	{ 
-		playerHealthSlider.value = health;
+		playerHealthSlider.value = (float)health;
 		playerFill.color = playerHealthGradient.Evaluate(playerHealthSlider.normalizedValue);
 	}
 
